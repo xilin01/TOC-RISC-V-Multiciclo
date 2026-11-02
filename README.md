@@ -10,7 +10,9 @@ Procesador **RISC-V multiciclo** descrito en VHDL y ejecutándose en una placa *
 
 Práctica final de la asignatura *Tecnología y Organización de Computadores*.
 
----
+![Ruta de datos del procesador multiciclo](docs/ruta-de-datos.png)
+
+*Ruta de datos multiciclo de referencia (Harris & Harris, Digital Design and Computer Architecture: RISC-V Edition, fig. 7.27). Sobre ella, este diseño añade una entrada `0` en `SrcA` y en `SrcB` (para `j`, `lsw` y `mv`) y, en la variante `lsw`, un multiplexor que carga los switches en `ALUOut`.*
 
 ## Características
 
