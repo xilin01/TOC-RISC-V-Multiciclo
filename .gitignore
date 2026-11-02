@@ -1,0 +1,9 @@
+# Salidas de simulación y de Vivado
+build/
+*.ghw
+*.cf
+.Xil/
+*.jou
+*.log
+*.str
+*.backup.*
